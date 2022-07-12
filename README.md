@@ -40,6 +40,7 @@ Number of clusters - 4
     and R2 scores 
 
 Hourly R2 Score:
+
 ![image](https://user-images.githubusercontent.com/35135771/178602161-372b1dc1-88f1-411e-8e6c-b34fd08c1da1.png)
 
 
@@ -54,6 +55,7 @@ Mean Squared Error Score for the entire dataset: 146.37517723504774
 5\. Four plots of fine-grained prediction results (screen shots) 
 
 Plot of 6 am to 9 am:
+
 ![image](https://user-images.githubusercontent.com/35135771/178602233-e86744c0-af63-4b3d-9e52-f495f14e229f.png)
 
 Plot of 4 pm to 7pm:
