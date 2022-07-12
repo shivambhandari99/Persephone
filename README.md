@@ -6,7 +6,7 @@ Predict Air Quality (pm 2.5) over LA county using limited sensor data and open s
 > install -r requirements.txt.
 
 1.  The number of clusters and the cluster label for each sensor
-    location (0.5pt)
+    location
 
 Number of clusters - 4
 
@@ -30,82 +30,46 @@ Number of clusters - 4
 87477: 1, 87567: 2, 90819: 1, 96243: 0, 102064: 0, 107960: 0}
 
 2.  The total number of features in the geographic abstraction vector
-    (0.5pt)
 
 5854
 
-3.  The top 20 important features and their importance (1pt)
-
-           **Geo Feature**   **Feature Type**   **Buffer Size**   **Importance \\(%\\)**
-  -------- ----------------- ------------------ ----------------- ------------------------
-  **0**    waterway          stream             3000              0.00756072051263904
-  **1**    highway           track              2500              0.007112029006588840
-  **2**    building          residential        2900              0.006960398676567070
-  **3**    highway           service            2900              0.006844928821713640
-  **4**    building          residential        3000              0.006620001845966780
-  **5**    building          warehouse          2800              0.006512322532633790
-  **6**    amenity           fast_food          3000              0.005817743169094100
-  **7**    highway           traffic_signals    2400              0.005757050047354120
-  **8**    highway           track              2800              0.005705449143858510
-  **9**    waterway          stream             2800              0.005125496643271650
-  **10**   building          residential        400               0.0050996318638686800
-  **11**   natural           scrub              2800              0.005010624762139430
-  **12**   highway           stop               1800              0.004998259132458570
-  **13**   tourism           motel              2600              0.004942587129746120
-  **14**   highway           crossing           2000              0.00467896299269153
-  **15**   highway           traffic_signals    2500              0.004572951456910940
-  **16**   building          apartments         2500              0.004396996442702900
-  **17**   highway           stop               2200              0.004340243880995160
-  **18**   building          warehouse          3000              0.004284636253924170
-  **19**   building          industrial         2800              0.004260775892842770
+3.  The top 20 important features and their importance 
+![image](https://user-images.githubusercontent.com/35135771/178602076-c47e83ac-be7a-4367-99d7-e94389c3d747.png)
 
 4.  Overall MSE and R2 on test samples and the plot showing hourly MSE
-    and R2 scores (1pt)
+    and R2 scores 
 
 Hourly R2 Score:
+![image](https://user-images.githubusercontent.com/35135771/178602161-372b1dc1-88f1-411e-8e6c-b34fd08c1da1.png)
 
-![Chart, line chart Description automatically
-generated](media/image1.png){width="5.597222222222222in"
-height="3.5694444444444446in"}
 
 Hourly MSE Score:
 
-![Chart, line chart Description automatically
-generated](media/image2.png){width="5.541666666666667in"
-height="3.5555555555555554in"}
+![image](https://user-images.githubusercontent.com/35135771/178602187-6c3601a8-1db6-4ef2-9259-b2dd596f305a.png)
 
 R2 Score for the entire dataset: 0.6164421802520904
 
 Mean Squared Error Score for the entire dataset: 146.37517723504774
 
-5\. Four plots of fine-grained prediction results (screen shots) (1pt)
+5\. Four plots of fine-grained prediction results (screen shots) 
 
-Plot of 6 am to 9 am:![Map Description automatically
-generated](media/image3.png){width="6.268055555555556in"
-height="3.9381944444444446in"}
+Plot of 6 am to 9 am:
+![image](https://user-images.githubusercontent.com/35135771/178602233-e86744c0-af63-4b3d-9e52-f495f14e229f.png)
 
 Plot of 4 pm to 7pm:
 
-![Map Description automatically
-generated](media/image4.png){width="6.268055555555556in"
-height="3.816666666666667in"}
+![image](https://user-images.githubusercontent.com/35135771/178602293-e88ddc46-f591-4273-afa2-bb1cefff4b67.png)
 
 Plot of weekdays:
 
-![Map Description automatically
-generated](media/image5.png){width="6.268055555555556in"
-height="3.925in"}
+![image](https://user-images.githubusercontent.com/35135771/178602314-1e937251-9098-4ff1-a5a1-77a96a24003f.png)
 
 Plot of weekends:
 
-![Map Description automatically
-generated](media/image6.png){width="6.268055555555556in"
-height="4.104166666666667in"}
+![image](https://user-images.githubusercontent.com/35135771/178602349-108e770f-d5ed-47b1-9daf-9005ca76cb0e.png)
 
 6\. Your findings and discussion on the selected features, MSE and R2
-scores, and plots of finegrained predictions in several sentences (no
-more than 300 words) (1pt)
-
+scores, and plots of finegrained predictions in several sentences
 Selected features:
 
 I have selected the top 60 features based on the importance scores. They
@@ -139,16 +103,10 @@ Appendix:
 
 Number of clusters vs Inertia
 
-![Chart, line chart Description automatically
-generated](media/image7.png){width="6.268055555555556in"
-height="3.5125in"}
+![image](https://user-images.githubusercontent.com/35135771/178602397-1956ead8-dd7d-4082-8457-0edc42bfe876.png)
 
 TimeSeries Clusters:
 
-![Chart, line chart, histogram Description automatically
-generated](media/image8.png){width="5.305555555555555in"
-height="7.416666666666667in"}
+![image](https://user-images.githubusercontent.com/35135771/178602411-2231bfa8-77f5-465e-9096-8e56797029e1.png)
 
-![Chart, line chart, histogram Description automatically
-generated](media/image9.png){width="5.625in"
-height="7.388888888888889in"}
+![image](https://user-images.githubusercontent.com/35135771/178602438-48b46a90-3ac6-4acf-a9d5-d82b6bb86989.png)
