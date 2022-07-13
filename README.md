@@ -34,7 +34,8 @@ Number of clusters - 4
 5854
 
 3.  The top 20 important features and their importance 
-![image](https://user-images.githubusercontent.com/35135771/178602076-c47e83ac-be7a-4367-99d7-e94389c3d747.png)
+
+![Screenshot 2022-07-13 at 11 04 54 AM](https://user-images.githubusercontent.com/35135771/178779912-644a16d8-6ee9-4af5-b50f-f255b576cba9.png)
 
 4.  Overall MSE and R2 on test samples and the plot showing hourly MSE
     and R2 scores 
@@ -70,7 +71,7 @@ Plot of weekends:
 
 ![image](https://user-images.githubusercontent.com/35135771/178602349-108e770f-d5ed-47b1-9daf-9005ca76cb0e.png)
 
-6\. Your findings and discussion on the selected features, MSE and R2
+6\. Findings and discussion on the selected features, MSE and R2
 scores, and plots of finegrained predictions in several sentences
 Selected features:
 
